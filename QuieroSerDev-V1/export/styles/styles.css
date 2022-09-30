@@ -20,10 +20,19 @@
     box-sizing: border-box;
 }
 
+/* GLOBAL */
+
 img {
     width: 100%;
     object-fit: contain;
 }
+
+header a:link,
+header a:visited,
+header a:hover,
+header a:active {
+    text-decoration: none;
+}  
 
 
 /* CUSTOM PROPERTIES */
@@ -46,12 +55,19 @@ html {
     font-family: sans-serif;
 }
 
-p, li {
+li {
     font-size: 1.6rem;
+}
+
+p {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    line-height: 2rem;
 }
 
 h1 {
     font-size: 3.6rem;
+    margin-bottom: 2rem;
 }
 
 h2  {   
@@ -140,6 +156,12 @@ nav a:active {
     color: var(--color-inverted);
 }
 
+.HEADER__NAV--active {
+    background-color: var(--color-secondary);
+    color: var(--color-inverted) !important;
+    pointer-events: none;       /* Disable NAV link to active page */
+}
+
 /* HERO_SECTION */
 
 .HERO_SECTION {
@@ -154,6 +176,10 @@ nav a:active {
     align-items: center;
 
     /* TODO: I want the background to extend to the sides, outside the container, but I can't remember how to do that. */
+}
+
+.HERO_SECTION h1 {
+    margin-bottom: 0;       /* TODO: Find a more elegant solution! */
 }
 
 .HERO__PITCH {
@@ -233,6 +259,13 @@ footer {
         gap: 0.5rem;
 
     }
+
+/* MAIN */
+
+main {
+    width: 100%;
+    padding: 32px;
+}
     
 
 

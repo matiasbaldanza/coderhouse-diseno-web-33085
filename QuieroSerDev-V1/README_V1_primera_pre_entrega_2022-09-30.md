@@ -29,8 +29,8 @@ Notas:
 - Implementé el layout usando Flexbox. (Sí. Ya sé que apenas vimos la introducción a Flexbox, pero me gusta complicarme la vida).
 - Esta versión del sitio NO ES RESPONSIVE (cosa que aún no vimos en el curso).
 - Solo implementé la versión DESKTOP.
-- Las páginas/secciones secundarias son solamente *placeholders*: No tienen contenido, excepto el título y un *lorem ipsum*.
-- En las páginas secciones secundarias, en la barra de navegación se marca la sección deshabilitando el link correspondiente y resaltándolo, a manera de *breadcrums* muy elementales.
+- Las páginas/secciones secundarias son solamente _placeholders_: No tienen contenido, excepto el título y un _lorem ipsum_.
+- En las páginas secciones secundarias, en la barra de navegación se marca la sección deshabilitando el link correspondiente y resaltándolo, a manera de _breadcrums_ muy elementales.
 
 <hr>
 

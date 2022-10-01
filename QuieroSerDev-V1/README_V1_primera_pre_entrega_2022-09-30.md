@@ -30,7 +30,7 @@ Notas:
 - Esta versión del sitio NO ES RESPONSIVE (cosa que aún no vimos en el curso).
 - Solo implementé la versión DESKTOP.
 - Las páginas/secciones secundarias son solamente *placeholders*: No tienen contenido, excepto el título y un *lorem ipsum*.
-- En las páginas secciones secundarias, en el <nav> se marca la sección deshabilitando el link correspondiente y resaltándolo, a manera de *breadcrums* muy elementales.
+- En las páginas secciones secundarias, en la barra de navegación se marca la sección deshabilitando el link correspondiente y resaltándolo, a manera de *breadcrums* muy elementales.
 
 <hr>
 

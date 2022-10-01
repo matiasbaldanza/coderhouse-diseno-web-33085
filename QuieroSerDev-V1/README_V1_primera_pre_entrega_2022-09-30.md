@@ -5,6 +5,10 @@
 - Alumno: **Matias Baldanza**
 - Curso: **Diseño Web**
 - Comisión: **#33085**
+- [Enlace al repositorio](https://github.com/matiasbaldanza/coderhouse-diseno-web-33085)
+- [Enlace a esta sección en el repositorio](https://github.com/matiasbaldanza/coderhouse-diseno-web-33085/tree/main/QuieroSerDev-V1)
+
+<hr>
 
 ## Pre-entrega 1: 2022-09-30
 
@@ -16,9 +20,15 @@ Si les da curiosidad, aquí están los enlaces a los videos grabados:
 - [Segunda sesión](https://www.twitch.tv/videos/1605338583) - 30 de setiembre (finalizar prototipo en Figma, implementar header y estilos base)
 - [Tercera sesión](https://www.twitch.tv/videos/1605662148) - 30 de setiembre (finalizar implementación y hacer la entrega)
 
-### Sitio en vivo
+### Código
 
 [QuieroSerDev versión 1](export/index.html)
+
+<hr>
+
+### Sitio en vivo
+
+[QuieroSerDev versión 1](matiasbaldanza.github.com)
 
 <hr>
 

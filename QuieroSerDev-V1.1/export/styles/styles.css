@@ -1,0 +1,295 @@
+/* 
+    Sitio:      QuieroSerDev v1 - prototipo
+                Matías Baldanza - matiasbaldanza@gmail.com
+                Twitter: @matiasbaldanza
+    Curso:      Diseño Web
+    Comisión:   #33085
+    CoderHouse
+
+    Repo:       https://github.com/matiasbaldanza/coderhouse-diseno-web-33085
+    Figma:      https://www.figma.com/file/x3iLIj3uOTBvPVzFslg58k/QuieroSerDev-v0-(wireframe)?node-id=0%3A1
+
+    ✌️🤓 Hice el prototipo y el código en stream en Twitch, en https://www.twitch.tv/matiasbaldanza/videos
+  */
+
+  /* CSS RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GLOBAL */
+
+img {
+    width: 100%;
+    object-fit: contain;
+}
+
+header a:link,
+header a:visited,
+header a:hover,
+header a:active {
+    text-decoration: none;
+}  
+
+
+/* CUSTOM PROPERTIES */
+
+:root {
+    --color-primary: #0a0a23;
+    --color-secondary: #356eaf;
+    --color-light: #d0d0d5;
+    --color-inverted: white;
+    --color-rows: #787878;
+    --color-text: var(--color-primary);
+
+    --spacing-base: 2rem;
+}
+
+/* BASE TEXT STYLES */
+
+html {
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+li {
+    font-size: 1.6rem;
+}
+
+p {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    line-height: 2rem;
+}
+
+h1 {
+    font-size: 3.6rem;
+    margin-bottom: 2rem;
+}
+
+h2  {   
+    font-size: 2.4rem;
+    margin-bottom: 0.8rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+}
+
+button {
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+/* MAIN CONTAINER */
+
+.CONTAINER {
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 32px;    
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+
+#HEADER__LOGO {
+    font-size: 2.4rem;
+    font-weight: 700;
+    padding: 1rem;
+    background-color: var(--color-secondary);
+    color: var(--color-inverted);
+    border-radius: 8px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 3rem;
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+nav > ul > li {
+    list-style-type: none;
+}
+
+nav a:link,
+nav a:visited,
+nav a:hover,
+nav a:active {
+    text-decoration: none;
+    color: var(--color-primary);
+    padding: 1rem;
+    border-radius: 8px;
+}  
+
+nav a:hover,
+nav a:focus {
+    background-color: var(--color-light);
+}
+
+nav a:active {
+    background-color: var(--color-secondary);
+    color: var(--color-inverted);
+}
+
+.HEADER__NAV--active {
+    background-color: var(--color-secondary);
+    color: var(--color-inverted) !important;
+    pointer-events: none;       /* Disable NAV link to active page */
+}
+
+/* HERO_SECTION */
+
+.HERO_SECTION {
+    width: 100%;
+    padding: 32px;
+    background-color: var(--color-light);
+
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    justify-content: space-around;
+    align-items: center;
+
+    /* TODO: I want the background to extend to the sides, outside the container, but I can't remember how to do that. */
+}
+
+.HERO_SECTION h1 {
+    margin-bottom: 0;       /* TODO: Find a more elegant solution! */
+}
+
+.HERO__PITCH {
+    /* max-width: 50%; */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+    .HERO__PITCH p {
+        font-size: 2rem;
+        font-weight: 300;  
+    }
+
+    .HERO__CTA_BTN {
+        padding: 1rem 2rem;
+    }
+
+    .SOCIAL--BTN-ROW {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        align-items: center;
+        font-size: 1.6rem;
+    }
+
+.HERO__ILUSTRATION {
+    max-width: 50%;
+}
+
+/* DETAILS_SECTION */
+
+.DETAILS_SECTION {
+    width: 100%;
+    padding: 32px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.DETAILS__CARD {
+    background-color: var(--color-light);
+    padding: 16px;
+    border-radius: 16px;
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.DETAILS__CARD p {
+    font-weight: 300;
+    line-height: 2rem;
+    margin: 0 0.5rem;
+    font-size: 1.4rem;
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 32px;
+    padding: 32px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+
+    background-color: var(--color-light)
+
+}
+
+    .SOCIAL--BTN-COL {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+
+    }
+
+/* MAIN */
+
+main {
+    width: 100%;
+    padding: 32px;
+}
+
+.article-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tag {
+    background-color: var(--color-light);
+}
+
+.list-of-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space;
+    gap: calc(var(--spacing-base) * 3);
+    padding: 32px;
+}
+
+.list-of-cards:last-child {
+    margin-bottom: 64px;
+}
+
+
+    
+
+
+

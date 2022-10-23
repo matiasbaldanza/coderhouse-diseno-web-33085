@@ -32,26 +32,25 @@ header a:active {
 /* CUSTOM PROPERTIES */
 
 :root {
-    --color-primary: #0a0a23;
-    --color-secondary: #356eaf;
+    --color-brand: #356eaf;
+    --color-dark: #0a0a23;
     --color-light: #d0d0d5;
     --color-inverted: white;
     --color-rows: #787878;
-    --color-text: var(--color-primary);
+    --color-text: var(--color-dark);
 }
 
 .social-icon {
     width: 36px;
     height: 36px;
-    background-color: var(--color-secondary);
+    background-color: var(--color-brand);
     color: var(--color-inverted);
-    border: 2px solid var(--color-secondary);
+    border: 2px solid var(--color-brand);
     border-radius: 0.25rem;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     margin-right: 6px;
-
 }
 
 
@@ -67,14 +66,43 @@ a:hover {
     color: var(--c-brand);
 }
 
-/* MAIN CONTAINER */
+text-brand {
+    color: var(--color-brand);
+}
 
-/* HEADER */
+/* BTN */
+
+/* Btn */
+.btn {
+    padding: 10px 24px;
+    border-radius: 0.25rem;
+    border-width: 2px;
+    font-weight: 500;
+}
+
+.btn-brand,
+.btn-brand:focus {
+    background-color: var(--color-brand);
+    color: var(--color-inverted);
+    border-color: var(--color-brand);
+}
+
+.btn-brand:hover {
+    background-color: transparent;
+    color: var(--c-brand);
+    border-color: var(--c-brand);
+}
+
+/* MAIN */
+
+.main__illustration {
+    max-width: 75%;
+}
 
 /* FOOTER */
 
 footer {
-    background-color: var(--color-secondary);
+    background-color: var(--color-brand);
     padding-top: 80px;
 }
 
@@ -115,7 +143,7 @@ footer ul li {
 
 footer .social-icon {
     background-color: var(--color-inverted);
-    color: var(--color-secondary);
+    color: var(--color-brand);
     border: 2px solid var(--color-inverted);
 }
 

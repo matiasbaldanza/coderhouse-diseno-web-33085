@@ -9,6 +9,13 @@ Aquí estoy subiendo los desafíos y entregas de mi cursada en CoderHouse.
 
 <hr>
 
+## Pre-entrega 2: 2022-10-22
+
+- [README de la corrección pre-entrega 1: 2022-10-08](PreEntrega2-Baldanza/README_Pre_entrega_2_Baldanza_2022-10-22.md)
+- [Enlace a esta sección en el repositorio](https://github.com/matiasbaldanza/coderhouse-diseno-web-33085/tree/main/PreEntrega2-Baldanza)
+
+<hr>
+
 ## Corrección Pre-entrega 1: 2022-10-08
 
 - [README de la corrección pre-entrega 1: 2022-10-08](QuieroSerDev-V1.1/README_V1.1_correccion_primera_pre_entrega_2022-10-08.md)

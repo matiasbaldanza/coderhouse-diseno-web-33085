@@ -16,18 +16,12 @@
 
 /* GLOBAL */
 
-/* img {
-    width: 100%;
-    object-fit: contain;
-} */
-
 header a:link,
 header a:visited,
 header a:hover,
 header a:active {
     text-decoration: none;
 }  
-
 
 /* CUSTOM PROPERTIES */
 
@@ -39,20 +33,6 @@ header a:active {
     --color-rows: #787878;
     --color-text: var(--color-dark);
 }
-
-.social-icon {
-    width: 36px;
-    height: 36px;
-    background-color: var(--color-brand);
-    color: var(--color-inverted);
-    border: 2px solid var(--color-brand);
-    border-radius: 0.25rem;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 6px;
-}
-
 
 /* BASE TEXT STYLES */
 
@@ -70,7 +50,7 @@ text-brand {
     color: var(--color-brand);
 }
 
-/* BTN */
+/* ELEMENTS */
 
 /* Btn */
 .btn {
@@ -91,6 +71,21 @@ text-brand {
     background-color: transparent;
     color: var(--c-brand);
     border-color: var(--c-brand);
+}
+
+/* SOCIAL ICONS */
+
+.social-icon {
+    width: 36px;
+    height: 36px;
+    background-color: var(--color-brand);
+    color: var(--color-inverted);
+    border: 2px solid var(--color-brand);
+    border-radius: 0.25rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 6px;
 }
 
 /* HEADER */

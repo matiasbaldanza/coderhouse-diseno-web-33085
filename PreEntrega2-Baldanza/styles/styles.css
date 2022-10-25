@@ -126,6 +126,10 @@ text-brand {
 
 /* MAIN */
 
+main {
+    background-color: var(--color-light);
+}
+
 .main__illustration {
     max-width: 75%;
 }

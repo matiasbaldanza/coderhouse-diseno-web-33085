@@ -93,10 +93,48 @@ text-brand {
     border-color: var(--c-brand);
 }
 
+/* HEADER */
+
+.navbar-brand {
+    background-color: var(--color-brand);
+    color: var(--color-inverted);
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-brand:hover {
+    background-color: var(--color-brand);
+    color: var(--color-inverted);
+}
+
+.navbar-item {
+    color: var(--color-text);
+    padding: 0.25rem 0.5rem;
+    border-radius: 8px;
+}
+
+.navbar-item:hover,
+.navbar-item:focus {
+    background-color: var(--color-light);
+}
+
+.navbar-item:active {
+    background-color: var(--color-brand);
+    /* FIXME: text does not look white on active! */
+    color: var(--color-inverted); 
+}
+
 /* MAIN */
 
 .main__illustration {
     max-width: 75%;
+}
+
+/* DETAILS */
+
+.details__card {
+    background-color: var(--color-light);
+    border-radius: 16px;
 }
 
 /* FOOTER */

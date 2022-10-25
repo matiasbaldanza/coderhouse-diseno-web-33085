@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <!-- 
-    Sitio:      QuieroSerDev v1 - prototipo
+    Sitio:      Pre-entrega 2 - Implementación con Bootstrap 4
+                QuieroSerDev v2 
                 Matías Baldanza - matiasbaldanza@gmail.com
                 Twitter: @matiasbaldanza
     Curso:      Diseño Web
@@ -8,81 +9,147 @@
     CoderHouse
 
     Repo:       https://github.com/matiasbaldanza/coderhouse-diseno-web-33085
+    Carpeta:    https://github.com/matiasbaldanza/coderhouse-diseno-web-33085/tree/main/PreEntrega2-Baldanza
     Figma:      https://www.figma.com/file/x3iLIj3uOTBvPVzFslg58k/QuieroSerDev-v0-(wireframe)?node-id=0%3A1
 
-    ✌️🤓 Hice el prototipo y el código en stream en Twitch, en https://www.twitch.tv/matiasbaldanza/videos
  -->
 
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QuieroSerDev (V1 — Matías Baldanza - Primera pre-entrega Comisión #33085 Diseño web - CoderHouse)</title>
+    <title>MI RUTA - QuieroSerDev (V2 — Matías Baldanza - Segunda pre-entrega Comisión #33085 Diseño web - CoderHouse)</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    
     <link rel="stylesheet" href="../styles/styles.css">
 </head>
 <body>
-    <div class="CONTAINER">
-        <header>
-            <a href="../index.html">
-                <div id="HEADER__LOGO">QuieroSerDev</div>
+    <!-- HEADER & NAV -->
+    <header class="container h-100 py-3"> 
+        <nav class="navbar navbar-light navbar-expand-lg">
+            <a class="navbar-brand" href="../index.html">
+                <div id="">QuieroSerDev</div>
             </a>
-            <nav id="HEADER__NAV">
-                <ul>
-                    <li><a class="HEADER__NAV--active" href="roadmap.html">Mi ruta</a></li>
-                    <li><a href="articles.html">Artículos</a></li>
-                    <li><a href="resources.html">Recursos</a></li>
-                    <li><a href="contact.html">Contacto</a></li>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <hr class="d-lg-none text-black-50 mt-4 mb-2 ms-auto col-3">
+                <ul class="navbar-nav ms-auto align-items-end">
+                    <li class="navbar-item">
+                        <a href="roadmap.html" class="nav-link">Mi ruta</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="articles.html" class="nav-link">Artículos</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="resources.html" class="nav-link">Recursos</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="contact.html" class="nav-link">Contacto</a>
+                    </li>
                 </ul>
-                <button class="HEADER__CTA_BTN">CTA Text</button>
+                <hr class="d-lg-none text-black-50 mb-4 ms-auto col-3">
+                <ul class="navbar-nav flex-row ms-md-0 ms-lg-4 justify-content-end">
+                    <li class="nav-item">
+                        <a class="social-icon" href="#"><i class="ri-twitch-line"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="social-icon" href="#"><i class="ri-github-line"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="social-icon" href="#"><i class="ri-instagram-line"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="social-icon" href="#"><i class="ri-youtube-line"></i></a>
+                </ul>
             </nav>
         </header>
-        
-        <main>
-            <h1>Esta es mi ruta de aprendizaje</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt architecto ipsa quae officia quo minima eligendi odit officiis at, quis aliquid, blanditiis odio sapiente sint nihil et tempora, dolorum culpa.</p>
-        </main>
-        
-        <section class="list-of-cards">
-            <article class="article-card">
-                <section>
-                    <h2>HTML</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt architecto ipsa quae officia quo minima eligendi odit officiis at, quis aliquid, blanditiis odio sapiente sint nihil et tempora, dolorum culpa.</p>
-                </section>
-            </article>
-            <article class="article-card">
-                <section>
-                    <h2>CSS</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt architecto ipsa quae officia quo minima eligendi odit officiis at, quis aliquid, blanditiis odio sapiente sint nihil et tempora, dolorum culpa.</p>
-                </section>
-            </article>
-            <article class="article-card">
-                <section>
-                    <h2>Javascript</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt architecto ipsa quae officia quo minima eligendi odit officiis at, quis aliquid, blanditiis odio sapiente sint nihil et tempora, dolorum culpa.</p>
-                </section>
-            </article>
-            <article class="article-card">
-                <section>
-                    <h2>React JS</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt architecto ipsa quae officia quo minima eligendi odit officiis at, quis aliquid, blanditiis odio sapiente sint nihil et tempora, dolorum culpa.</p>
-                </section>
-            </article>
+    
+    <main>
+        <h1>Esta es mi ruta de aprendizaje</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt architecto ipsa quae officia quo minima eligendi odit officiis at, quis aliquid, blanditiis odio sapiente sint nihil et tempora, dolorum culpa.</p>
+    </main>
+    
+    <section class="list-of-cards">
+        <article class="article-card">
+            <section>
+                <h2>HTML</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt architecto ipsa quae officia quo minima eligendi odit officiis at, quis aliquid, blanditiis odio sapiente sint nihil et tempora, dolorum culpa.</p>
+            </section>
+        </article>
+        <article class="article-card">
+            <section>
+                <h2>CSS</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt architecto ipsa quae officia quo minima eligendi odit officiis at, quis aliquid, blanditiis odio sapiente sint nihil et tempora, dolorum culpa.</p>
+            </section>
+        </article>
+        <article class="article-card">
+            <section>
+                <h2>Javascript</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt architecto ipsa quae officia quo minima eligendi odit officiis at, quis aliquid, blanditiis odio sapiente sint nihil et tempora, dolorum culpa.</p>
+            </section>
+        </article>
+        <article class="article-card">
+            <section>
+                <h2>React JS</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt architecto ipsa quae officia quo minima eligendi odit officiis at, quis aliquid, blanditiis odio sapiente sint nihil et tempora, dolorum culpa.</p>
+            </section>
+        </article>
 
-        <footer>
-            <h3>©2022 QuieroSerDev</h3>
-            <div class="SOCIAL--BTN-COL">
-                <div class="SOCIAL--BTN-ROW">
-                    <img src="https://icongr.am/fontawesome/twitch.svg?size=30" alt="Twitch">
-                    <span class="SM-LABEL">matiasbaldanza</span>
+    <!-- FOOTER -->
+
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row gy-5">
+                    <div class="col-md-4">
+                        <h4><a href="#" class="text-white">QuieroSerDev</a></h4>
+                        <p>Una crónica de mi camino para convertirme en desarrollador front-end. <br> Hecho con ♥ desde Argentina.</p>
+                        <ul class="navbar-nav flex-row">
+                            <li class="nav-item">
+                                <a class="social-icon" href="#"><i class="ri-twitch-line"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="social-icon" href="#"><i class="ri-twitter-line"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="social-icon" href="#"><i class="ri-github-line"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="social-icon" href="#"><i class="ri-youtube-line"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 ms-auto">
+                        <h4>Enlaces</h4>
+                        <ul>
+                            <li><a href="roadmap.html">Mi ruta</a></li>
+                            <li><a href="#">Artículos</a></li>
+                            <li><a href="#">Recursos</a></li>
+                            <li><a href="#">Contacto</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="SOCIAL--BTN-ROW"><img src="https://icongr.am/fontawesome/twitter.svg?size=30" alt="Twitter"><span class="SM-LABEL">matiasbaldanza</span></div>
-                <div class="SOCIAL--BTN-ROW"><img src="https://icongr.am/fontawesome/github.svg?size=30" alt="GitHub"><span class="SM-LABEL">matiasbaldanza</span></div>
             </div>
-        </footer>
-    </div> <!-- CONTAINER -->
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-auto">
+                        <p class="mb-0">© 2022 QuieroSerDev</p>
+                    </div>
+                    <div class="col-auto">
+                        <p class="mb-0">Matías Baldanza — Comisión 33085 Desarrollo Web</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>

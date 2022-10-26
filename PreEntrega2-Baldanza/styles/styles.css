@@ -142,8 +142,21 @@ main {
 /* DETAILS */
 
 .details__card {
-    background-color: var(--color-light);
     border-radius: 16px;
+}
+
+.details__card:nth-child(odd) {
+    background-color: var(--color-light);
+}
+
+/* alternating backgrounds */
+.details__card:nth-child(even) {   
+    background-color: var(--color-inverted);
+}
+
+/* alternating direction */
+.details__card:nth-child(even) > .col-md-11 > .row {
+    flex-direction: row-reverse !important;
 }
 
 /* FOOTER */

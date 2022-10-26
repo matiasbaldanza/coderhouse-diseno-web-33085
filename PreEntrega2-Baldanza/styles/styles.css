@@ -145,6 +145,10 @@ main {
     border-radius: 16px;
 }
 
+.card__illustration {
+    max-width: 75%;
+}
+
 .details__card:nth-child(odd) {
     background-color: var(--color-light);
 }
@@ -156,7 +160,7 @@ main {
 
 /* alternating direction */
 .details__card:nth-child(even) > .col-md-11 > .row {
-    flex-direction: row-reverse !important;
+    flex-direction: row !important;
 }
 
 /* FOOTER */

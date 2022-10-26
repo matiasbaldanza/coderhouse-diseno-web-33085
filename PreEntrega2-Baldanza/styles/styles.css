@@ -90,6 +90,10 @@ text-brand {
 
 /* HEADER */
 
+/* NAVBAR */
+
+/* TODO: Enable highlighting the current page. Using nav-pills for the ul and active for the links */
+
 .navbar-brand {
     background-color: var(--color-brand);
     color: var(--color-inverted);
@@ -108,6 +112,11 @@ text-brand {
     border-radius: 8px;
 }
 
+.navbar-item .curent {
+    background-color: var(--color-brand);
+    
+}
+
 .navbar-item:hover,
 .navbar-item:focus {
     background-color: var(--color-light);
@@ -118,6 +127,7 @@ text-brand {
     /* FIXME: text does not look white on active! */
     color: var(--color-inverted); 
 }
+
 
 /* MAIN */
 

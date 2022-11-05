@@ -6,7 +6,7 @@
 - Curso: **Diseño Web**
 - Comisión: **#33085**
 - [Enlace al repositorio](https://github.com/matiasbaldanza/coderhouse-diseno-web-33085)
-- [Enlace a esta sección en el repositorio](https://github.com/matiasbaldanza/coderhouse-diseno-web-33085/tree/main/README_Pre_entrega_3_Baldanza_2022-11-05)
+- [Enlace a esta sección en el repositorio](https://github.com/matiasbaldanza/coderhouse-diseno-web-33085/tree/main/PreEntrega3-Baldanza)
 
 <hr>
 

@@ -12,7 +12,7 @@ Aquí estoy subiendo los desafíos y entregas de mi cursada en CoderHouse.
 ## Pre-entrega 3: 2022-11-05
 
 - [README de la Pre-Entrega 3: 2022-11-05](PreEntrega3-Baldanza/README_Pre_entrega_3_Baldanza_2022-11-05.md)
-- [Enlace a esta sección en el repositorio](https://github.com/matiasbaldanza/coderhouse-diseno-web-33085/tree/main/README_Pre_entrega_3_Baldanza_2022-11-05)
+- [Enlace a esta sección en el repositorio](https://github.com/matiasbaldanza/coderhouse-diseno-web-33085/tree/main/PreEntrega3-Baldanza)
 
 <hr>
 

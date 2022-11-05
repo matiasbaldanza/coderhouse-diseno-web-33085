@@ -1,0 +1,213 @@
+/* 
+
+    Sitio:      Pre-entrega 2 - Implementación con Bootstrap 4
+                QuieroSerDev v2 
+                Matías Baldanza - matiasbaldanza@gmail.com
+                Twitter: @matiasbaldanza
+    Curso:      Diseño Web
+    Comisión:   #33085
+    CoderHouse
+
+    Repo:       https://github.com/matiasbaldanza/coderhouse-diseno-web-33085
+    Carpeta:    https://github.com/matiasbaldanza/coderhouse-diseno-web-33085/tree/main/PreEntrega2-Baldanza
+    Figma:      https://www.figma.com/file/x3iLIj3uOTBvPVzFslg58k/QuieroSerDev-v0-(wireframe)?node-id=0%3A1
+
+  */
+
+/* GLOBAL */
+
+header a:link,
+header a:visited,
+header a:hover,
+header a:active {
+    text-decoration: none;
+}  
+
+/* CUSTOM PROPERTIES */
+
+:root {
+    --color-brand: #356eaf;
+    --color-dark: #0a0a23;
+    --color-light: #d0d0d5;
+    --color-inverted: white;
+    --color-rows: #787878;
+    --color-text: var(--color-dark);
+}
+
+/* BASE TEXT STYLES */
+
+a {
+    text-decoration: none;
+    color: var(--c-dark);
+    transition: var(--transition);
+}
+
+a:hover {
+    color: var(--c-brand);
+}
+
+text-brand {
+    color: var(--color-brand);
+}
+
+/* ELEMENTS */
+
+/* Btn */
+.btn {
+    padding: 10px 24px;
+    border-radius: 0.25rem;
+    border-width: 2px;
+    font-weight: 500;
+}
+
+.btn-brand,
+.btn-brand:focus {
+    background-color: var(--color-brand);
+    color: var(--color-inverted);
+    border-color: var(--color-brand);
+}
+
+.btn-brand:hover {
+    background-color: transparent;
+    color: var(--c-brand);
+    border-color: var(--c-brand);
+}
+
+/* SOCIAL ICONS */
+
+.social-icon {
+    width: 36px;
+    height: 36px;
+    background-color: var(--color-brand);
+    color: var(--color-inverted);
+    border: 2px solid var(--color-brand);
+    border-radius: 0.25rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 6px;
+}
+
+/* HEADER */
+
+/* NAVBAR */
+
+/* TODO: Enable highlighting the current page. Using nav-pills for the ul and active for the links */
+
+.navbar-brand {
+    background-color: var(--color-brand);
+    color: var(--color-inverted);
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-brand:hover {
+    background-color: var(--color-brand);
+    color: var(--color-inverted);
+}
+
+.navbar-item {
+    color: var(--color-text);
+    padding: 0.25rem 0.5rem;
+    border-radius: 8px;
+}
+
+.navbar-item .curent {
+    background-color: var(--color-brand);
+    
+}
+
+.navbar-item:hover,
+.navbar-item:focus {
+    background-color: var(--color-light);
+}
+
+.navbar-item:active {
+    background-color: var(--color-brand);
+    /* FIXME: text does not look white on active! */
+    color: var(--color-inverted); 
+}
+
+
+/* MAIN */
+
+main {
+    background-color: var(--color-light);
+}
+
+.main__illustration {
+    max-width: 75%;
+}
+
+/* DETAILS */
+
+.details__card {
+    border-radius: 16px;
+}
+
+.card__illustration {
+    max-width: 75%;
+}
+
+.details__card:nth-child(odd) {
+    background-color: var(--color-light);
+}
+
+/* alternating backgrounds */
+.details__card:nth-child(even) {   
+    background-color: var(--color-inverted);
+}
+
+/* alternating direction */
+.details__card:nth-child(even) > .col-md-11 > .row {
+    flex-direction: row !important;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: var(--color-brand);
+    padding-top: 80px;
+}
+
+footer h4 {
+    color: var(--color-inverted);
+    margin-bottom: 24px;
+}
+
+footer p,
+footer li, 
+footer li a {
+    color: var(--color-inverted);
+    font-size: 0.9rem;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-top: 6px;
+}
+
+.footer-top {
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(255,255,255, 0.1);
+}
+
+.footer-bottom {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer-bottom a {
+    color: var(--c-brand);
+}
+
+footer .social-icon {
+    background-color: var(--color-inverted);
+    color: var(--color-brand);
+    border: 2px solid var(--color-inverted);
+}
+
